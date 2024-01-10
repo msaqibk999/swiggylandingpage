@@ -1,26 +1,20 @@
 {
   "files": {
-    "main.css": "/swiggylandingpage/static/css/main.a8454d26.chunk.css",
-    "main.js": "/swiggylandingpage/static/js/main.6f92b175.chunk.js",
-    "main.js.map": "/swiggylandingpage/static/js/main.6f92b175.chunk.js.map",
-    "runtime-main.js": "/swiggylandingpage/static/js/runtime-main.f10e95b6.js",
-    "runtime-main.js.map": "/swiggylandingpage/static/js/runtime-main.f10e95b6.js.map",
-    "static/css/2.8ee630b0.chunk.css": "/swiggylandingpage/static/css/2.8ee630b0.chunk.css",
-    "static/js/2.94423a32.chunk.js": "/swiggylandingpage/static/js/2.94423a32.chunk.js",
-    "static/js/2.94423a32.chunk.js.map": "/swiggylandingpage/static/js/2.94423a32.chunk.js.map",
-    "static/js/3.bdeaa31d.chunk.js": "/swiggylandingpage/static/js/3.bdeaa31d.chunk.js",
-    "static/js/3.bdeaa31d.chunk.js.map": "/swiggylandingpage/static/js/3.bdeaa31d.chunk.js.map",
+    "main.css": "/swiggylandingpage/static/css/main.4ef9e128.css",
+    "main.js": "/swiggylandingpage/static/js/main.5eee0920.js",
+    "static/js/787.1cbf308f.chunk.js": "/swiggylandingpage/static/js/787.1cbf308f.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/swiggylandingpage/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/swiggylandingpage/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/swiggylandingpage/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/swiggylandingpage/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/swiggylandingpage/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/swiggylandingpage/index.html",
-    "static/css/2.8ee630b0.chunk.css.map": "/swiggylandingpage/static/css/2.8ee630b0.chunk.css.map",
-    "static/css/main.a8454d26.chunk.css.map": "/swiggylandingpage/static/css/main.a8454d26.chunk.css.map",
-    "static/js/2.94423a32.chunk.js.LICENSE.txt": "/swiggylandingpage/static/js/2.94423a32.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/swiggylandingpage/static/media/fontawesome-webfont.f691f37e.woff"
+    "main.4ef9e128.css.map": "/swiggylandingpage/static/css/main.4ef9e128.css.map",
+    "main.5eee0920.js.map": "/swiggylandingpage/static/js/main.5eee0920.js.map",
+    "787.1cbf308f.chunk.js.map": "/swiggylandingpage/static/js/787.1cbf308f.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f10e95b6.js",
-    "static/css/2.8ee630b0.chunk.css",
-    "static/js/2.94423a32.chunk.js",
-    "static/css/main.a8454d26.chunk.css",
-    "static/js/main.6f92b175.chunk.js"
+    "static/css/main.4ef9e128.css",
+    "static/js/main.5eee0920.js"
   ]
 }
