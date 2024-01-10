@@ -14,7 +14,7 @@ const Section1 = (props) =>{
             <Nav/>
             <h2 id="ani" className="animation" ><span></span></h2>
             <h3>{props.h3}</h3>
-            <Form placeholder="Enter your delivery location"/>
+            <Form placeholder="Enter your delivery location" id="form"/>
             <h4>{props.h4}</h4>
             <List cities={Famous_cities}/>
         </div>
