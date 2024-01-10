@@ -3,6 +3,7 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    overflow: hidden;
 }
 .menu{
     margin: 50px;
@@ -35,6 +36,15 @@
 .images{
     display: flex;
     flex-wrap:wrap;
+}
+@media only screen and (max-width:1400px)
+{
+    #locate-btn{
+        color: white;
+    }
+    #locate-btn img{
+        filter: invert(100%) grayscale(100%) contrast(75%) brightness(105%);  
+    }
 }
 
 @media only screen and (max-width:800px)
@@ -71,5 +81,20 @@
     .img2{
         margin-left: 0;
         margin-top: 0;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 50px 0px;
+        font-size: 1rem;
+        padding: 0rem 1rem;
+    }
+    .para{
+        width: 100%;
+    }
+    .heading{
+        font-size: 2rem;
+        width: 8rem;
     }
 }

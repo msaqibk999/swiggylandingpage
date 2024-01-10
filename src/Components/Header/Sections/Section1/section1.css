@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: 45% 650px;
+    box-sizing: border-box;
 }
 .section1{
    margin:70px 70px 70px 80px;
@@ -42,13 +43,9 @@
     border-radius: 0;
     cursor: pointer;
 }
-.btn1:hover{
+.btn1:hover, .btn2:hover{
     color:#fc8019;
 }
-.btn2:hover{
-    color:white;
-}
-
 .section1 h3{
     color:#686b78;
     font-size: 24px;
@@ -191,8 +188,8 @@
 
 @media (max-width:1400px){
     .sections{
-        background-image: linear-gradient(hsla(0,20%,90%,0.5),hsla(0,0%,90%,0.6)),url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq);
-        background-size: 45em 48em;
+        background-image: linear-gradient(hsla(0, 0%, 0%, 0.5),hsla(0,0%,90%,0.6)),url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq);
+        background-size: 100% 48em;
     }
     
     .input{
@@ -200,6 +197,28 @@
     }
     .span{
         background-color: transparent;
+    }
+    .section1 h3{
+        color: #ffffff;
+        font-weight: 600;
+    }
+    .section1 h2{
+        color: white;
+    }
+    .list li:nth-child(even){
+        color: #331700;
+    }
+    .list li:nth-child(odd){
+        color: #8f4203;
+    }
+    .btn1{
+        color: white;
+    }
+    .section1 h4{
+        color: white;
+    }
+    .input::placeholder{
+        color: white;
     }
 }
 @media (max-width:1000px)
@@ -240,13 +259,19 @@
 {
     .section1{
         width: 40em;
-        margin: 60px 35px;       
+        margin: 0rem;
+        box-sizing: border-box;
+        padding: 2rem 1rem; 
     }
     .section1 h3{
         width: 95%;
     }
     .section1 h2{
         font-size: 42px;
+        height: 6rem;
+    }
+    .secitons{
+        padding: 1rem;
     }
     .location{
         width: 90%;
@@ -269,9 +294,6 @@
     }
     .list{
         width: 90vw;
-    }
-    .section1 h4:hover{
-        color: #2a2b2c;
     }
     .list li:nth-child(even):hover
     {

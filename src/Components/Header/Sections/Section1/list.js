@@ -5,7 +5,7 @@ const List = (props)=>{
     return(
         <div>
             <ul className="list">
-                {cities.map(city => <li>{city}</li>)}
+                {cities.map((city, index) => <li key={index}>{city}</li>)}
             </ul>
         </div>
     )

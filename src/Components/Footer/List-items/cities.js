@@ -10,28 +10,28 @@ const city = (props)=>{
                     <h5>{h1}</h5>
                     <nav>
                         <ul className="ul">
-                            {links1.map(link => <li><a href={link.url}>{link.text}</a></li>)}
+                            {links1.map((link, index) => <li key={index}><a href={link.url}>{link.text}</a></li>)}
                         </ul>
                     </nav>
                 </div>
                 <div className="col2">
                     <nav>
                         <ul>
-                            {links2.map(link => <li><a href={link.url}>{link.text}</a></li>)}
+                            {links2.map((link, index) => <li key={index}><a href={link.url}>{link.text}</a></li>)}
                         </ul>
                     </nav>
                 </div>
                 <div className="col3">
                     <nav>
                         <ul>
-                            {links3.map(link => <li><a href={link.url}>{link.text}</a></li>)}
+                            {links3.map((link, index) => <li key={index}><a href={link.url}>{link.text}</a></li>)}
                         </ul>
                     </nav>
                 </div>
                 <div className="col4">
                     <nav>
                         <ul>
-                            {links4.map(link => <li><a href={link.url}>{link.text}</a></li>)}
+                            {links4.map((link, index) => <li key={index}><a href={link.url}>{link.text}</a></li>)}
                         </ul>
                     </nav>
                 </div>

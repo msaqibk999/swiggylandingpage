@@ -4,7 +4,7 @@ import "./Sections/Section1/section1.css";
 
 const header = () =>{
     return(
-        <div class="sections">
+        <div className="sections">
             <Section1 h3="Order food from favourite restaurants near you." h4="POPULAR CITIES IN INDIA"/>
         </div>
     )

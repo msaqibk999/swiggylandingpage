@@ -11,7 +11,7 @@ const service = (props)=>{
                 <h5>{h1}</h5>
                 <nav>
                     <ul>
-                        {links1.map(link => <li><a href={link.url}>{link.text}</a></li>)}
+                        {links1.map((link, index) => <li key={index}><a href={link.url}>{link.text}</a></li>)}
                     </ul>
                 </nav>
             </div>
@@ -19,7 +19,7 @@ const service = (props)=>{
                 <h5>{h2}</h5>
                 <nav>
                     <ul>
-                         {links2.map(link => <li><a href={link.url}>{link.text}</a></li>)}
+                         {links2.map((link, index) => <li key={index}><a href={link.url}>{link.text}</a></li>)}
                     </ul>
                 </nav>
             </div>
@@ -27,7 +27,7 @@ const service = (props)=>{
                 <h5>{h3}</h5>
                 <nav>
                     <ul>
-                        {links3.map(link => <li><a href={link.url}>{link.text}</a></li>)}
+                        {links3.map((link, index) => <li key={index}><a href={link.url}>{link.text}</a></li>)}
                     </ul>
                 </nav>
             </div>
